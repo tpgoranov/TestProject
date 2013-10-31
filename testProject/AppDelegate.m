@@ -23,6 +23,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
+    NSLog(@"applicationDidEnterBackground");
 
 }
 
