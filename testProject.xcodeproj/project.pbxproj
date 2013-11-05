@@ -22,6 +22,8 @@
 		C8F4BD6318222790002DCC57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8F4BD6118222790002DCC57 /* InfoPlist.strings */; };
 		C8F4BD6518222790002DCC57 /* testProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4BD6418222790002DCC57 /* testProjectTests.m */; };
 		C8F4BD7018222982002DCC57 /* TestFile.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4BD6F18222982002DCC57 /* TestFile.m */; };
+		C8F4BD721822C0DE002DCC57 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F4BD711822C0DE002DCC57 /* libGoogleAnalyticsServices.a */; };
+		C8F4BD771822E98B002DCC57 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C8F4BD761822E98B002DCC57 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		C8F4BD6418222790002DCC57 /* testProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testProjectTests.m; sourceTree = "<group>"; };
 		C8F4BD6E18222982002DCC57 /* TestFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFile.h; sourceTree = "<group>"; };
 		C8F4BD6F18222982002DCC57 /* TestFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFile.m; sourceTree = "<group>"; };
+		C8F4BD711822C0DE002DCC57 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		C8F4BD761822E98B002DCC57 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 				C8F4BD3C18222790002DCC57 /* CoreGraphics.framework in Frameworks */,
 				C8F4BD3E18222790002DCC57 /* UIKit.framework in Frameworks */,
 				C8F4BD3A18222790002DCC57 /* Foundation.framework in Frameworks */,
+				C8F4BD721822C0DE002DCC57 /* libGoogleAnalyticsServices.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +120,8 @@
 		C8F4BD3F18222790002DCC57 /* testProject */ = {
 			isa = PBXGroup;
 			children = (
+				C8F4BD761822E98B002DCC57 /* Podfile */,
+				C8F4BD711822C0DE002DCC57 /* libGoogleAnalyticsServices.a */,
 				C8F4BD4818222790002DCC57 /* AppDelegate.h */,
 				C8F4BD4918222790002DCC57 /* AppDelegate.m */,
 				C8F4BD4B18222790002DCC57 /* Main.storyboard */,
@@ -235,6 +242,7 @@
 			files = (
 				C8F4BD5218222790002DCC57 /* Images.xcassets in Resources */,
 				C8F4BD4418222790002DCC57 /* InfoPlist.strings in Resources */,
+				C8F4BD771822E98B002DCC57 /* Podfile in Resources */,
 				C8F4BD4D18222790002DCC57 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,6 +395,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testProject/testProject-Prefix.pch";
 				INFOPLIST_FILE = "testProject/testProject-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/todor/Test/testProject/testProject,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -400,6 +412,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testProject/testProject-Prefix.pch";
 				INFOPLIST_FILE = "testProject/testProject-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/todor/Test/testProject/testProject,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -466,6 +482,7 @@
 				C8F4BD6A18222790002DCC57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8F4BD6B18222790002DCC57 /* Build configuration list for PBXNativeTarget "testProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +491,7 @@
 				C8F4BD6D18222790002DCC57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
