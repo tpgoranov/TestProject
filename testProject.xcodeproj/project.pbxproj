@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8E6EE9C1832B2F700A0507D /* TTT.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E6EE9B1832B2F700A0507D /* TTT.m */; };
 		C8F4BD3A18222790002DCC57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F4BD3918222790002DCC57 /* Foundation.framework */; };
 		C8F4BD3C18222790002DCC57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F4BD3B18222790002DCC57 /* CoreGraphics.framework */; };
 		C8F4BD3E18222790002DCC57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F4BD3D18222790002DCC57 /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C8E6EE9A1832B2F700A0507D /* TTT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTT.h; sourceTree = "<group>"; };
+		C8E6EE9B1832B2F700A0507D /* TTT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTT.m; sourceTree = "<group>"; };
 		C8F4BD3618222790002DCC57 /* testProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F4BD3918222790002DCC57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C8F4BD3B18222790002DCC57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -131,6 +134,8 @@
 				C8F4BD4018222790002DCC57 /* Supporting Files */,
 				C8F4BD6E18222982002DCC57 /* TestFile.h */,
 				C8F4BD6F18222982002DCC57 /* TestFile.m */,
+				C8E6EE9A1832B2F700A0507D /* TTT.h */,
+				C8E6EE9B1832B2F700A0507D /* TTT.m */,
 			);
 			path = testProject;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 				C8F4BD7018222982002DCC57 /* TestFile.m in Sources */,
 				C8F4BD4A18222790002DCC57 /* AppDelegate.m in Sources */,
 				C8F4BD4618222790002DCC57 /* main.m in Sources */,
+				C8E6EE9C1832B2F700A0507D /* TTT.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
